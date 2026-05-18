@@ -9,8 +9,26 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      "index"
+    "products": [
+      {
+        "product": "Untitled Product",
+        "tabs": [
+          {
+            "tab": "Untitled Tab",
+            "products": [
+              {
+                "product": "Untitled Product",
+                "pages": [
+                  "index"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Untitled Tab"
+          }
+        ]
+      }
     ]
   },
   "logo": {
