@@ -1,133 +1,55 @@
----
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
-icon: 'star'
----
+## 欢迎来到 Zerobit 文档中心
 
-## Setting up
+Zerobit（零位特技）专注于**物联网（IoT）产品研发**，致力于为各行业提供高精度、低功耗的室内定位与无线通信解决方案。
 
-Get your documentation site up and running in minutes.
+<Info>
+  我们的产品广泛应用于工厂资产管理、人员安全管控、仓储物流、智慧医疗等场景。
+</Info>
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
-
-## Make it yours
-
-Design a docs site that looks great and empowers your users.
+## 核心产品
 
 <Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
+  <Card title="BLE AOA 基站" icon="bluetooth" href="/products/ble-aoa">
+    基于蓝牙 AoA（到达角）技术的室内定位基站，支持亚米级精度定位，功耗低、部署简便，适合大规模人员与资产追踪。
   </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
+
+  <Card title="UWB AOA 基站" icon="tower-broadcast" href="/products/uwb-aoa">
+    基于超宽带（UWB）AoA 技术的高精度定位基站，定位精度可达厘米级，抗干扰能力强，适用于高精度工业定位场景。
   </Card>
 </Columns>
 
-## Create beautiful pages
+## 技术优势
 
-Everything you need to create world-class documentation.
+<Columns cols={3}>
+  <Card title="高精度定位" icon="crosshairs">
+    融合 BLE 与 UWB 多种定位技术，满足不同精度需求，从亚米级到厘米级。
+  </Card>
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
+  <Card title="低功耗设计" icon="battery-full">
+    针对物联网场景优化功耗，延长设备续航，降低运营维护成本。
   </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
+
+  <Card title="快速部署" icon="bolt">
+    模块化设计，支持即插即用，大幅缩短项目实施周期。
   </Card>
 </Columns>
 
-## Make your content agent ready
+## 快速开始
 
-Make your docs work for humans and AI agents alike.
+<CardGroup cols={2}>
+  <Card title="BLE AOA 快速上手" icon="rocket" href="/products/ble-aoa/quickstart">
+    了解如何快速部署 BLE AOA 基站并开始定位。
+  </Card>
 
-<Columns cols={2}>
-  <Card
-    title="Prompt component"
-    icon="robot"
-    href="/agent-ready/prompt"
-  >
-    Embed shareable AI prompts readers can copy or open in Cursor.
+  <Card title="UWB AOA 快速上手" icon="rocket" href="/products/uwb-aoa/quickstart">
+    了解如何快速部署 UWB AOA 基站并开始定位。
   </Card>
-  <Card
-    title="Visibility"
-    icon="eye"
-    href="/agent-ready/visibility"
-  >
-    Show different content to humans and agents reading your docs.
-  </Card>
-  <Card
-    title="Contextual menu"
-    icon="bolt"
-    href="/agent-ready/contextual"
-  >
-    Give readers one-click access to Claude, ChatGPT, Cursor, and more.
-  </Card>
-  <Card
-    title="AI coding tools"
-    icon="wand-magic-sparkles"
-    href="/ai-tools/claude-code"
-  >
-    Set up Claude Code, Cursor, or Windsurf with Mintlify's skill.
-  </Card>
-</Columns>
 
-## Need inspiration?
+  <Card title="API 参考" icon="terminal" href="/api-reference/introduction">
+    查看完整的接口文档，快速接入我们的定位系统。
+  </Card>
 
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+  <Card title="联系我们" icon="envelope" href="mailto:support@zerobit.cc">
+    有任何问题，欢迎联系我们的技术支持团队。
+  </Card>
+</CardGroup>
