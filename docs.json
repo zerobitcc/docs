@@ -95,10 +95,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/images/zerobit-logo.png",
-    "dark": "/images/zerobit-logo.png"
-  },
+  "logo": "/images/zerobit-logo.png",
   "navbar": {
     "links": [
       {
